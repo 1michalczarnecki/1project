@@ -1,0 +1,789 @@
+body
+{
+	margin: 0;
+	background-color: white;
+	color: #F7931A;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 17px;
+}
+
+
+img 
+{
+	width: 200px;
+	height: 100px;
+	display: block;
+  	margin: 0 auto;
+}
+  
+#topnav
+{
+	background-color: #191d21;
+	text-align: center;
+    width: 100%;
+	margin: 0 auto;
+}
+
+.menu
+{
+	list-style-type: none;
+	margin: 0;
+	padding: 10px;
+	font-size: 25px;
+	min-height: 38px;
+	line-height: 200%;
+}
+
+.menu > li
+{
+	display: inline-block;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.menu a
+{
+	color: #fff;
+	text-decoration: none;
+}
+
+.menu a:hover
+{
+	color:  #F7931A;
+}
+
+h1
+{
+	font-size: 44px;
+	font-weight: 400;
+	color: black;
+	margin-bottom: 20px;
+}
+
+
+.article0
+{
+	background-color: white;
+	padding: 10px;
+	text-align: justify;
+	margin-top: 20px;
+	border-radius: 5px;
+	display: inline-block;
+	width: 355px;
+}
+
+.article1
+{
+	background-color: white;
+	padding: 10px;
+	text-align: justify;
+	margin-top: 20px;
+	border-radius: 5px;
+	display: inline-block;
+	width: 355px;
+}
+
+.article2
+{
+		background-color: white;
+		padding: 10px;
+		text-align: justify;
+		margin-top: 20px;
+		border-radius: 5px;
+		display: inline-block;
+		width: 355px;
+}
+
+.article3
+{
+		background-color: white;
+		padding: 10px;
+		text-align: justify;
+		margin-top: 20px;
+		border-radius: 5px;
+		display: inline-block;
+		width: 355px;
+}
+
+.entryimg0
+{
+		display: inline-block;
+		width: 110px;
+}
+
+.analizaimg
+{
+		width: 180px;
+}
+	
+.entryimg0 img
+{
+		width: 315px;
+		height: 315px;
+}	
+
+.analizaimg img
+{
+		width: 150px;
+		height: 150px;
+}	
+	
+.entryimg
+{
+	display: inline-block;
+	width: 110px;
+}
+
+.entryimg img
+{
+	width: 315px;
+	height: 315px;
+}
+
+.entryimg2
+{
+	display: inline-block;
+	width: 110px;
+}
+
+.entryimg2 img
+{
+	display: inline-block;
+	width: 315px;
+	height: 315px;
+}
+
+.entryimg3
+{
+	display: inline-block;
+	width: 110px;
+}
+
+.entryimg3 img
+{
+	display: inline-block;
+	width: 315px;
+	height: 315px;
+}
+
+.article0txt
+{
+	display: inline-block;
+	width: 315px;
+	font-size: 15px;
+	text-align: center;
+}
+
+.analizatxt
+{
+	
+	width: 300px;
+	font-size: 15px;
+	text-align: center;
+	
+}
+
+.article1txt
+{
+	display: inline-block;
+	width: 315px;
+	font-size: 15px;
+	text-align: center;
+}
+
+.article2txt
+{
+	display: inline-block;
+	width: 315px;
+	font-size: 15px;
+	text-align: center;
+}
+.article3txt
+{
+	display: inline-block;
+	width: 315px;
+	font-size: 15px;
+	text-align: center;
+}
+
+h2
+{
+	font-size: 20px;
+	font-weight: 400;
+	color: black;
+}
+
+.socials
+
+{	margin-top: 150px;
+	position: absolute;
+	height: 120px;
+	width:100%;
+	text-align: center;
+	background-color: black;
+	
+	
+}
+
+.socialdivs
+{
+	height: 120px;
+	width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+	
+	
+}
+
+.fb
+{	color:#3557a2;
+	width: 250px;
+	height: 120px;
+	float:left;
+
+}
+
+.fb a
+{
+	color: inherit;
+
+}
+.fb:hover
+{
+	background-color: #4668b3;
+}
+
+.fb a i.icon-facebook-squared
+{
+	font-size: 80px; /* Ustaw rozmiar fontu */
+	text-align: center; /* Wyrównaj tekst do środka */
+	display: inline-block; /* Ustaw jako inline-block, aby mieć kontrolę nad wysokością i szerokością */
+	margin-top: 15px;
+}
+
+.yt
+{	color: #ff0000;
+	width: 250px;
+	height: 120px;
+	float:left;
+	
+}
+
+.yt a
+{
+	color: inherit;
+}
+
+.yt:hover
+{
+	background-color: #d94348;
+}
+
+.yt a i.icon-youtube
+{
+	font-size: 80px; /* Ustaw rozmiar fontu */
+	text-align: center; /* Wyrównaj tekst do środka */
+	display: inline-block; /* Ustaw jako inline-block, aby mieć kontrolę nad wysokością i szerokością */
+	margin-top: 15px;
+}
+
+
+
+.tw
+{	color: #2984c2;
+	width: 250px;
+	height: 120px;
+	float:left;
+}
+
+.tw a 
+{
+	color: inherit;
+}
+
+.tw:hover
+{
+	background-color: #3095d3;
+}
+
+.tw a i.icon-twitter
+{
+	font-size: 80px; /* Ustaw rozmiar fontu */
+	text-align: center; /* Wyrównaj tekst do środka */
+	display: inline-block; /* Ustaw jako inline-block, aby mieć kontrolę nad wysokością i szerokością */
+	margin-top: 15px;
+}
+
+.gplus
+{	color: #dd4b39;
+	width: 250px;
+	height: 120px;
+	float:left;
+}
+
+.gplus:hover
+{
+	background-color: #ee5c40;
+}
+
+.gplus a
+{
+	color: inherit;
+}
+
+.gplus a i.icon-mail-squared 
+{
+	font-size: 80px; /* Ustaw rozmiar fontu */
+	text-align: center; /* Wyrównaj tekst do środka */
+	display: inline-block; /* Ustaw jako inline-block, aby mieć kontrolę nad wysokością i szerokością */
+	margin-top: 15px;
+}
+
+.info
+{
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	padding: 20px;
+	color: black;
+}
+
+.container
+{
+	margin-left: auto;
+	margin-right: auto;
+	width: 1000px;
+}
+
+
+
+.container1
+{	position: relative;
+	top: 100px;
+	width: 80%;
+	margin: 0 auto;
+	height: 550px;
+	background-color: white;
+}
+
+.maintext
+{
+	position: relative;
+	top: 100px;
+	color: black;
+	text-align: center;
+	height: 300px;
+}
+
+.cytat
+{	
+	height: 150px;
+	text-align: center;
+	background-color: white;
+}
+
+.analiza
+{	top: 100px;
+	width: 600px;
+	margin: 0 auto;
+	clear:both;
+	display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.createwallet 
+{
+	background-color: #F7931A;
+	padding: 15px;
+	color: black;
+	font-size: 19px;
+	text-decoration: none;
+	border-radius: 5px;
+	width: 200px;
+	height: 30px;
+	text-align: center;
+	
+}
+
+.buybtc
+{
+	background-color: #F7931A;
+	padding: 15px;
+	color: black;
+	font-size: 19px;
+	text-decoration: none;
+	border-radius: 5px;
+	width: 200px;
+	height: 30px;
+	margin: 0 10px;
+	text-align: center;
+}
+
+.morebtc1
+{
+	background-color: #F7931A;
+	padding: 15px;
+	color: black;
+	font-size: 19px;
+	text-decoration: none;
+	border-radius: 5px;
+	width: 200px;
+	height: 30px;
+	margin: 0 10px;
+	text-align: center;
+}
+
+.buy
+{
+width: 33%;
+height: 155px;
+margin: 0 auto;
+display: flex;
+justify-content: center;
+float: left;
+}
+
+.wallet
+{
+	width: 33%;
+	height: 155px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: center;
+	float: left;
+}
+
+.morebtc
+{
+	width: 33%;
+	height: 155px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: center;
+	float: left;
+}
+
+.analizatxt a:link {
+    color: black; /* kolor czcionki dla nieklikniętego linku */
+    text-decoration: none; /* usuwa podkreślenie */
+}
+.analizatxt a:visited {
+    color: black; /* kolor czcionki dla odwiedzonego linku */
+    text-decoration: none; /* usuwa podkreślenie */
+}
+.analizatxt a:hover {
+    color: #F7931A /* kolor czcionki dla linku po najechaniu na niego */
+}
+.analizatxt a:active {
+    color: #F7931A /* kolor czcionki dla linku po kliknięciu */
+}
+
+
+
+
+#logo
+{
+    float: left;
+    font-family: 'Josefin Sans',sans-serif;
+    font-size: 70px;
+    width: 600px;
+    text-align: left;
+}
+
+
+.tile0
+{
+    margin: 10px;
+    width: 230px;
+    height: 142px;
+    float: left;
+	overflow: hidden;
+	position: relative;
+}
+
+.image0
+{ 
+  width: 100%;
+  height: auto;
+}
+
+.image0:hover 
+{
+	opacity: 0.9; /*np. obniżenie przezroczystości obrazka o 50%*/
+	
+}
+.image0:hover::before
+{
+	content: url('img/yt.gif');
+}
+
+.tile1
+{
+    margin: 10px;
+    width: 230px;
+    height: 142px;
+    float: left;
+	overflow: hidden;
+}
+
+.image1
+{
+  width: 100%;
+  height: auto;
+}
+
+.image1:hover 
+{
+	opacity: 0.9; /*np. obniżenie przezroczystości obrazka o 50%*/
+	
+}
+
+.tile2
+{
+    margin: 10px;
+    width: 230px;
+    height: 142px;
+	float: left;
+    overflow: hidden;
+}
+
+.image2
+{
+	width: 100%;
+	height: auto;
+}
+
+.image2:hover 
+{
+	opacity: 0.9; /*np. obniżenie przezroczystości obrazka o 50%*/
+	
+}
+
+
+.tile3
+{
+    margin: 10px;
+    width: 230px;
+    height: 142px;
+    float: left;
+    overflow: hidden;
+}
+
+.image3
+{
+	width: 100%;
+	height: auto;
+}
+
+.image3:hover 
+{
+	opacity: 0.9; /*np. obniżenie przezroczystości obrazka o 50%*/
+	
+}
+
+.tile4
+{	color: black;
+    margin: 10px;
+    width: 420px;
+    height: 82px;
+    background-color: #F7931A;
+    text-align: center;
+    font-size: 18px;
+    padding: 30px;
+    line-height: 100%;
+
+    
+}
+
+
+.tile5
+{
+    margin: 10px;
+    width: 85%;
+    height: 300px;
+ 
+    text-align: justify;
+
+}
+
+.imgtile5
+{
+	height: 100%;
+	width: 100%;
+}
+
+.imgtile5:hover
+{
+	opacity: 0.9; /*np. obniżenie przezroczystości obrazka o 50%*/
+	color: grey;
+}
+
+.imgtile9
+{
+	height: 100%;
+	width: 100%;
+	border: 1px solid black;
+}
+
+.imgtile9:hover
+{
+	opacity: 0.9; /*np. obniżenie przezroczystości obrazka o 50%*/
+	color: grey;
+}
+
+
+
+.manifest
+{
+	text-align: center;
+	margin-top: 150px;
+	
+
+}
+
+.manifest2
+{
+	margin: 0 auto;
+	
+	width: 80%;
+	height: 100%;
+}
+
+#support
+{
+	margin-top: 150px;
+	width: 80%;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#support2
+{
+	margin-top: 150px;
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	height: auto;
+}
+
+#clearboth
+{
+	clear: both;
+}
+
+#thanks
+{
+	margin-top: 75px;
+	width: 80%;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	height: 25px;
+}
+
+#spis
+{
+	
+	margin-right: auto;
+	margin-left: auto;
+	width: 80%;
+	padding: 5x; 5px;
+	border-radius: 10px;
+}
+
+.wprowadzenielink
+{
+text-decoration: none;
+color: black;
+
+}
+
+.wprowadzenielink:hover
+{
+	color:#F7931A;
+	text-decoration: underline;
+}
+
+.scrollup
+{
+	text-decoration:none;
+	width: 1px;
+	height:1px;
+	background: url("img/scroll.jpg") no-repeat 0px 0px;
+	position: fixed;
+	right: 125px;
+	bottom: 100px;
+	display: none;
+	
+}
+
+.scroll
+{
+	width: 75px;
+	height:75px;
+}
+
+#jakiportfel
+{
+	width: 80%;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 150px;
+}
+
+p.cykl 
+{
+	text-decoration:none;
+	text-align: center;
+	color: black;
+	
+}
+
+p.cykl2
+{
+	text-decoration:none;
+	text-align: center;
+	color: black;
+	
+}
+
+a.btckurs
+{
+text-decoration: none;
+line-height: 100;
+}
+
+
+.YoutubeWS {
+	margin-top: 150px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	
+  }
+  
+  .square {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	max-width: 80%;
+	margin: 0 auto;
+  }
+  
+  .square > div {
+	flex-basis: calc(25% - 20px);
+	margin: 10px;
+  }
+  
+  @media (max-width: 768px) {
+	.square > div {
+	  flex-basis: calc(50% - 20px);
+	}
+  }
+
+  a.off
+  {
+	text-decoration: none;
+  }
